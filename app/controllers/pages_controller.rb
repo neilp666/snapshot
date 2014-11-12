@@ -2,7 +2,7 @@ class PagesController < ApplicationController
   def home
     access_token = ENV["ACCESS_TOKEN"]
     client = Instagram.client(access_token: access_token)
-    default_search = client.tag_search('pizza')
+    default_search = client.tag_search('mustang')
 
   if params[:q]
       search_query = client.tag_search(params[:q])
