@@ -13,6 +13,7 @@ gem 'spring',        group: :development
 gem 'bootstrap-sass'
 gem 'instagram'
 gem 'figaro'
+gem 'font-awesome-sass'
 
 group :production do
   gem 'pg'
